@@ -1,0 +1,303 @@
+
+   
+body {
+    background-color: #eee;
+}
+.container1 {
+    width: 1512px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #c00 4px solid;
+
+}
+
+.ord {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+    width: 100%;
+    height: 40px;
+}
+
+.box1 {
+
+    width:100%;
+    height: 40px;
+    padding-left: 15px;
+    border-bottom: none;
+    border-right:0.800px solid black ;
+    border-left: none;
+    margin-left: 20px;
+    border-top: none;
+    
+   
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-items: space-evenly;
+}
+
+.admin {
+    
+    color: #242629;
+    display: inline-block;
+    font-family: "Whitney", "Whitney SSm A", "Whitney SSm B", "Benton-Sans";
+    font-weight: 500;
+    font-size: larger;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin-left: 15px;
+   
+}
+.admin:hover {
+    border-bottom: #242629 solid 1px;
+    cursor: pointer;
+}
+
+.boxbu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 237px;
+    height: 81px;
+    flex-basis: 20%;
+}
+
+.bu {
+   
+    width: auto;
+    height: auto;
+    color: #242629;
+    font-family:  "Benton-Sans";
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    font-size: 200%;
+}
+.ord2 {
+   
+    align-content: center;
+      flex-basis: 15%;
+      width: 386px;
+      height: 50px;
+      align-items: center;
+      display: flex;
+      
+}
+.box3 {
+    
+    font-family: "Tiempos-Headline";
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    height: auto;
+    width: 400px;
+  
+}
+.list {
+    border-radius: 4px;
+    width: 400px;
+    height: 100%;
+
+}
+.smallbox {
+    text-decoration: none;
+    color: #ffffffbf;
+    background: #00000054;
+    padding: 0px 14px;
+    font: 50px "Whitney""Whitney SSm A", "Whitney SSm B", "Benton-Sans";
+    border-radius: 4px;
+    width: 60px;
+    height: 36px;
+    font-size: 80%;
+    font-weight: 500;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+.smallbox:hover {
+     background: #32373c;
+    color: #ffffffbf;
+    cursor: pointer;
+}
+.search-box {
+        border: 1px solid tomato;
+        display:inline-flex;
+        align-items: center;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #d4d1d1;
+        backdrop-filter: blur(40px);
+        color:#ffffffaa;
+        margin-left: 15px;
+        opacity: 0.6;
+    }
+.search-box:hover {
+    background-color: #ffffff;
+    filter: contrast(100%) brightness(100%);
+    color: white;
+}
+.search-letras {
+    border:none;
+    color:white;
+    font-weight:bold;
+    transition: 0.5s;
+    line-height: 40px;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 17px;
+    outline: none;
+    width: 200px;
+}
+.search-lupa {
+    display:flex;
+    align-items: center;
+    background: none;
+    cursor: pointer;
+color: #e9eaee;
+background-color: transparent;
+}
+
+.smallbox2 {
+    background: rgba(0,0,0,0.075);
+    width: 400px;
+    height: 36px;
+    font: 50px "Whitney SSm A";
+    background: #00000013;
+    padding: 0px 14px;
+    text-decoration: none;
+    color: #ffffffbf;
+    border-radius: 4px;
+    font-size: 100%;
+    
+   
+
+}
+.container2 {
+    width: 1512px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.box21 {
+    width: 1512px;
+    height: 500px;
+    flex-basis: 65%;
+    background: url(../img/buar2025-600x500.jpg);
+    
+}
+.box22{
+font-family: "Benton-Sans", "Helvetica", sans-serif;
+   font-size: 100%;
+    line-height: normal;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 30px 65px;
+    width: 367px;
+    height: 169px;
+    box-sizing: border-box;
+    font-weight: bold;
+   
+}
+h3{
+    font: 30px "Benton-Sans";
+    font-size: 250%;
+    font-weight: 900;
+
+}
+.link {
+    width: 131px;
+    height: 40px;
+    display: inline-block;
+    font-family: "Benton-Sans", "Helvetica", sans-serif;
+    font-size: inherit;
+    line-height: normal;
+    margin: 0 15px 15px 0;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    border-radius: 2px;
+    color: #c00;
+    background: #fff !important;
+    box-sizing: border-box;
+}
+.container3 {
+
+    width: 920px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+   margin: -24px 230px 42px;
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 3em;
+    text-align: center;
+    position: relative;
+  
+   
+
+
+}
+.box31 {
+list-style: none;
+
+font-weight: 500;
+margin-bottom: 0px;
+padding-left: .92138vw;
+padding-right: .92138vw;
+margin-top: 0px;
+display: flex;  
+flex-direction: row;
+justify-content: space-evenly;
+width: auto;
+flex-basis: 80%;
+}
+.first{
+  
+    color: #6e6e6e;
+    display: inline-block;
+    font-family: "Tiempos-Headline";
+    font-size: 100%;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-left: .92138vw;
+    padding-right: .92138vw;
+    margin-top: 0px;
+    flex-basis: 20%;
+}
+.box32 {
+    
+    text-decoration: none;
+    color: #242629;
+    
+    font-family: "Whitney", "Whitney SSm A", "Whitney SSm B", "Benton-Sans";
+    font-size:120%;
+    font-weight: 500;
+    line-height: 3em;
+   
+   
+}
+.box32:hover {
+    border-bottom: #242629 solid 1px;
+    cursor: pointer;
+}
